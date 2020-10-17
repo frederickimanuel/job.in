@@ -1,0 +1,332 @@
+/*Antapani font import*/
+@font-face {
+    font-family: 'antapani';
+    src: url('../font/Antapani/Antapani-ExtraBold.otf');
+  }
+  /*scrollbar modifier*/
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /*body*/
+  body {
+    margin: 0;
+  }
+  .navbar{
+    box-shadow: 0px 0px 4px #000000;
+    background-color: #0b1a39;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  .navbar-brand {
+    margin-top: 3px;
+    float: none;
+    position: absolute;
+  }
+  
+  .page-title-job{
+    color: #FFFF00;
+    font-family: antapani;
+  }
+  
+  .page-title-in{
+    color: #ffffff;
+  }
+  
+  .sidebar {
+    box-shadow: 0px 0px 5px #000000;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #0b1a39;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    box-shadow: 0px 0px 2px #000000;
+    font-weight: 700;
+    background-color: #FFFF00;
+    color: #0b1a39;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    font-weight: 500;
+    background-color: white;
+    color: #0b1a39;
+  }
+  
+  .sidebar-profile{
+    padding-top: 10px;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-bottom: 5px;
+  }
+  .sidebar-profile-image{
+    margin-bottom: 5px;
+    border-radius: 50%;
+  }
+  .sidebar-profile-name{
+    text-align: center;
+    color: white;
+  }
+  
+  div.content {
+    background-color: white;
+    margin-left: 200px;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+/*content*/
+.content1{
+    width: 100%;
+    padding-top: 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+.content1-grid{
+    height: 200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content1-grid-item{
+    text-align: center;
+}
+.content1-grid-item-text{
+    font-family: antapani;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+.content1-years-employeed{
+    color: lightslategray;
+    font-size: 4em;
+}
+.content1-star-level{
+    margin-top: 1.5em;
+}
+
+.content2{
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 2em;
+}
+.content2-grid{
+    display:grid;
+    grid-template-columns: 18% 3% 79%;
+    width: 100%;
+}
+.content2-status-grid{
+    display: grid;
+    grid-template-columns: 80% 8%;
+}
+.content2-update-status{
+    width: 100%;
+    height: 22px;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: lightgray;
+}
+.content2-update-text{
+    color: gray;
+    font-size: 13px;
+}
+
+.content3{
+    margin-top: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-bottom: 2.5em;
+}
+.content3-grid{
+    padding-top: 2em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.content3-grid-item{
+    width: auto;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    align-items: center;
+    border: 1px solid;
+    border-color: lightgray;
+}
+.content3-grid-item-title{
+    border-radius: 3px;
+    background-color: #0b1a39;
+    color: #FFFF00;
+    font-family: antapani;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-bottom: 1em;
+    width: 100%;
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+.content3-body-empty{
+    height: 6em;
+}
+.content3-add-portofolio{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #0b1a39;
+    padding-bottom: 0.2em;
+    padding-top: 0.8em;
+    border-top: 1px solid;
+    border-color: lightgray;
+}
+.content3-add-portofolio-text{
+    text-decoration: none;
+    color: #FFFF00;
+}
+.content4{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    margin-top: 2em;
+}
+.content4-grid{
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 100%;
+}
+.content4-grid-item{
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    align-items: center;
+    border: 1px solid;
+    border-color: lightgray;
+}
+.content4-grid-item-title{
+    border-radius: 3px;
+    background-color: #0b1a39;
+    color: #FFFF00;
+    font-family: antapani;
+    border-bottom: 1px solid;
+    border-color: lightgray;
+    padding-bottom: 1em;
+    width: 100%;
+    padding-top: 1em;
+    font-size: 1.5em;
+}
+.content4-body-grid{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 46% 3% auto;
+    text-align: left;
+}
+.content4-body-grid-item-text{
+    font-size: 11px;
+}
+.content4-manage{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #0b1a39;
+    padding-bottom: 0.2em;
+    padding-top: 0.8em;
+    border-top: 1px solid;
+    border-color: lightgray;
+}
+.content4-manage-text{
+    text-decoration: none;
+    color: #FFFF00;
+}
+.content4-body-empty{
+    height: 6em;
+}
+.content4-add-company{
+    width: 100%;
+    border-radius: 3px;
+    background-color: #0b1a39;
+    padding-bottom: 0.2em;
+    padding-top: 0.8em;
+    border-top: 1px solid;
+    border-color: lightgray;
+}
+.content4-add-company-text{
+    text-decoration: none;
+    color: #FFFF00;
+}
+
+/*footer*/
+.content-footer{
+    border-top: 1px solid;
+    border-color: #e8e8e8;
+    text-align: center;
+    margin-top: 3em;
+    width: 100%;
+    height: 40px;
+    background-color: white; 
+ }
+  .content-footer-text{
+    padding-top: 10px;
+    color: #b4b4b4;
+    font-size: 12px;
+}
+  .content-footer-link{
+    color: #0b1a39;
+    text-decoration: none;
+    font-size: 15px;
+}
