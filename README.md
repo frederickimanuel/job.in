@@ -1,14 +1,14 @@
 # job.in
 Purpose: Learning html and css due to the past semester assignment
 
-_____________________________________________________________________________
+
 ## Language Used
 - PHP
 - HTML
 - CSS
 - SQL (not included in github repository)
 
-_____________________________________________________________________________
+
 ## Images
 
 Landing Page
