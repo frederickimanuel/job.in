@@ -11,22 +11,22 @@ _____________________________________________________________________________
 ## Images
 
 Landing Page
-![Index](./screenshots/index.JPG)
+![Index](./screenshots/index.jpg)
 
 Register
-![Register](./screenshots/register.JPG)
+![Register](./screenshots/register.jpg)
 
 Home
-![Register](./screenshots/home.JPG)
+![Register](./screenshots/home.jpg)
 
 Profile
-![Register](./screenshots/profile.JPG)
+![Register](./screenshots/profile.jpg)
 
 Browse
-![Register](./screenshots/browse.JPG)
+![Register](./screenshots/browse.jpg)
 
 Account
-![Register](./screenshots/account.JPG)
+![Register](./screenshots/account.jpg)
 
 Help
-![Register](./screenshots/help.JPG)
+![Register](./screenshots/help.jpg)
